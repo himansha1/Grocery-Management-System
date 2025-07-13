@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<elements>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>keellscart2</display-name>
+  
+  	<servlet>
+    <servlet-name>AddToCartServlet</servlet-name>
+    <servlet-class>customerpackage.AddToCartServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddToCartServlet</servlet-name>
+    <url-pattern>/AddToCartServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>customerpackage.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>customerpackage.OrderServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/OrderServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>CustomerUpdateOrderServlet</servlet-name>
+    <servlet-class>customerpackage.CustomerUpdateOrderServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>CustomerUpdateOrderServlet</servlet-name>
+    <url-pattern>/CustomerUpdateOrderServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>customerpackage.ProductServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/ProductServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>customerpackage.RegisterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateDetailsServlet</servlet-name>
+    <servlet-class>customerpackage.UpdateDetailsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UpdateDetailsServlet</servlet-name>
+    <url-pattern>/UpdateDetailsServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>customerpackage.LogoutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>OrderInsertServlet</servlet-name>
+    <servlet-class>adminpackage.OrderInsertServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>OrderInsertServlet</servlet-name>
+    <url-pattern>/OrderInsertServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>GetAllOrders</servlet-name>
+    <servlet-class>adminpackage.GetAllOrders</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>GetAllOrders</servlet-name>
+    <url-pattern>/GetAllOrders</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateOrderServlet</servlet-name>
+    <servlet-class>adminpackage.UpdateOrderServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UpdateOrderServlet</servlet-name>
+    <url-pattern>/UpdateOrderServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>OrderDeleteServlet</servlet-name>
+    <servlet-class>adminpackage.OrderDeleteServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>OrderDeleteServlet</servlet-name>
+    <url-pattern>/OrderDeleteServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>adminpackage.AdminLoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/AdminLoginServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ProductInsertServlet</servlet-name>
+    <servlet-class>adminpackage.ProductInsertServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ProductInsertServlet</servlet-name>
+    <url-pattern>/ProductInsertServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateProductServlet</servlet-name>
+    <servlet-class>adminpackage.UpdateProductServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UpdateProductServlet</servlet-name>
+    <url-pattern>/UpdateProductServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ProductDeleteServlet</servlet-name>
+    <servlet-class>adminpackage.ProductDeleteServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ProductDeleteServlet</servlet-name>
+    <url-pattern>/ProductDeleteServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>CustomerDeleteServlet</servlet-name>
+    <servlet-class>customerpackage.CustomerDeleteServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>CustomerDeleteServlet</servlet-name>
+    <url-pattern>/CustomerDeleteServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+         
+              <servlet-name>Productinsert</servlet-name>
+              <servlet-class>adminpackage.Productinsert</servlet-class>
+              
+         
+         </servlet>
+         
+         <servlet-mapping>
+                <servlet-name>Productinsert</servlet-name>
+                <url-pattern>/Productinsert</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+              <servlet-name>Productretrive</servlet-name>
+              <servlet-class>adminpackage.Productretrive</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+                <servlet-name>Productretrive</servlet-name>
+                <url-pattern>/Productretrive</url-pattern>
+         </servlet-mapping>
+         
+          <servlet>
+              <servlet-name>UpdateProductServlet</servlet-name>
+              <servlet-class>adminpackage.UpdateProductServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+                <servlet-name>UpdateProductServlet</servlet-name>
+                <url-pattern>/UpdateProductServlet</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+              <servlet-name>readproduct</servlet-name>
+              <servlet-class>adminpackage.Productretriveservlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+                <servlet-name>readproduct</servlet-name>
+                <url-pattern>/read</url-pattern>
+         </servlet-mapping>
+         
+          <servlet>
+              <servlet-name>Deleteproductservlet</servlet-name>
+              <servlet-class>adminpackage.Deleteproductservlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+                <servlet-name>Deleteproductservlet</servlet-name>
+                <url-pattern>/Deleteproductservlet</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+    <servlet-name>OrderHistoryServlet</servlet-name>
+    <servlet-class>customerpackage.OrderHistoryServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>OrderHistoryServlet</servlet-name>
+    <url-pattern>/OrderHistoryServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteCustomerOrderServlet</servlet-name>
+    <servlet-class>customerpackage.DeleteCustomerOrderServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DeleteCustomerOrderServlet</servlet-name>
+    <url-pattern>/DeleteCustomerOrderServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>CartServlet</servlet-name>
+    <servlet-class>customerpackage.CartServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>CartServlet</servlet-name>
+    <url-pattern>/CartServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateServlet</servlet-name>
+    <servlet-class>adminpackage.UpdateServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UpdateServlet</servlet-name>
+    <url-pattern>/UpdateServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>InsertServlet</servlet-name>
+    <servlet-class>adminpackage.InsertServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>InsertServlet</servlet-name>
+    <url-pattern>/InsertServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>adminpackage.DeleteServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/DeleteServlet</url-pattern>
+</servlet-mapping>
+
+<session-config>
+    <session-timeout>30</session-timeout> <!-- Set this to the desired timeout in minutes -->
+</session-config>
+    
+</web-app>
+</elements>
+
